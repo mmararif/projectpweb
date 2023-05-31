@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --bg: #76b5c5;
+    --sec: #34353a;
+    --thrd: #2e2f34;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--poppins);
+    background-color: var(--sec);
+    color: #fff;
+}
+
+/* navbar */
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+/* keahlian */
+.keahlian .title {
+    display: flex;
+    margin: 20px 10px 5px;
+    justify-content: center;
+    color: var(--bg);
+}
+
+.keahlian .title-bawah {
+    display: flex;
+    justify-content: center;
+}
+
+.keahlian .title-bawah p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.keahlian .keahlian-card {
+    padding: 3rem 5% 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    max-width: 500px;
+    padding: 40px 20px 40px 10px;
+    background: #fff;
+    border-radius: 24px;
+    margin: 20px 50px 20px 50px;
+}
+
+.card img {
+    max-width: 200px;
+    width: 28vw;
+    height: 250px;
+    object-fit: cover;
+    margin-left: -50px;
+    margin-right: 30px;
+    border-radius: inherit;
+    box-shadow: 0 60px rgb(0, 0, 0 / 8%);
+}
+
+.card h2 {
+    color: rgba(0, 0, 0 ,90%);
+}
+
+.card p {
+    color: rgba(0, 0, 0, 70%);
+}
+
+/* footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 16px 0 32px;
+    margin-top: 64px;
+}
+
+footer .credit {
+    font-size: 12px;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}

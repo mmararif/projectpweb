@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --bg: #76b5c5;
+    --sec: #34353a;
+    --thrd: #2e2f34;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--poppins);
+    background-color: var(--sec);
+    color: #fff;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22.4px 7%;
+    background-color: var(--thrd);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-bottom: 1px solid #fff;
+}
+
+.navbar .navbar-brand {
+    display: inline-flex;
+}
+
+.navbar .navbar-icon .navbar-img {
+    height: 43px;
+}
+
+.navbar .navbar-logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navbar .navbar-logo span {
+    color: var(--bg);
+}
+
+.navbar .navbar-nav .active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--bg);
+}
+
+.navbar .navbar-nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.navbar .navbar-nav li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: var(--bg);
+    font-style: oblique;
+}
+
+/* navbar end */
+
+/* isi */
+
+.home {
+    padding-top: 22.4px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .home-left .home-name h1 {
+    font-size: 3em;
+}
+
+.home .home-left .home-name .dua {
+    color: var(--bg);
+}
+
+.home-left a {
+    color: #fff;
+}
+
+.home .home-left {
+    margin-top: 100px;
+}
+
+.home .home-left .home-sosmed .home-sosmed-up {
+    display: flex;
+}
+
+.home .home-left .home-sosmed .home-sosmed-up a:hover {
+    color: var(--bg);
+}
+
+.home .home-left .home-contactme {
+    margin-top: 40px;
+}
+
+.home .home-left .home-contactme a {
+    color: var(--bg);
+    margin-top: 20px;
+    border-width: 16px;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 3px solid var(--bg);
+}
+
+.home .home-left .home-contactme a:hover {
+    background-color: var(--bg);
+    color: #fff;
+}
+
+.home .home-center {
+    margin-top: 150px;
+    
+}
+
+.home-right {
+    margin-top: 50px;
+}
+
+.home-right .up {
+    color: var(--bg);
+    font-weight: bold;
+}
+
+
+.home-right .title {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.home-right .isi {
+    margin-bottom: 20px;
+}
+
+.home-right a {
+    max-width: 120px;
+    color: var(--bg);
+    display: flex;
+}
+
+.home-right a:hover {
+    font-weight: bold;
+}
+
+
+/* isi end */
+
+/* footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 16px 0 32px;
+    margin-top: 64px;
+}
+
+footer .credit {
+    font-size: 12px;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --bg: #76b5c5;
+    --sec: #34353a;
+    --thrd: #2e2f34;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--poppins);
+    background-color: var(--sec);
+    color: #fff;
+}
+
+/* navbar */
+nav {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+/* pendidikan */
+.pendidikan {
+    padding: 0 7% 1.4rem;
+}
+
+.pendidikan .title {
+    display: flex;
+    margin: 20px 10px 5px;
+    justify-content: center;
+    color: var(--bg);
+}
+
+.pendidikan .title-bawah {
+    display: flex;
+    justify-content: center;
+}
+
+.pendidikan .title-bawah p {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.pendidikan .tabel {
+    justify-content: center;
+    padding: 8rem 11% 1.4rem ;
+}
+
+.pendidikan .tabel .content img {
+    width: 500px;
+    height: 350px;
+    
+}
+.pendidikan .tabel .content-dua img {
+    width: 500px;
+    height: 350px;
+}
+
+.isi h3, .isi h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.pendidikan .tabel .content-dua .isi-dua h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pendidikan .tabel .content-dua .isi-dua h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 16px 0 32px;
+    margin-top: 64px;
+}
+
+footer .credit {
+    font-size: 12px;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}
+

@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap');
+
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --bg: #76b5c5;
+    --sec: #34353a;
+    --thrd: #2e2f34;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--poppins);
+    background-color: var(--sec);
+    color: #fff;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22.4px 7%;
+    background-color: var(--thrd);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-bottom: 1px solid;
+}
+
+.navbar .navbar-brand {
+    display: inline-flex;
+}
+
+.navbar .navbar-icon .navbar-img {
+    height: 43px;
+}
+
+.navbar .navbar-logo {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.navbar .navbar-logo span {
+    color: var(--bg);
+}
+
+.navbar .navbar-nav .active {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--bg);
+}
+
+.navbar .navbar-nav li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    
+}
+
+.navbar .navbar-nav li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar .navbar-nav li a:hover {
+    color: var(--bg);
+    font-style: oblique;
+}
+
+/* navbar end */
+
+/* kontak */
+.kontak {
+    padding: 8rem 7% 1.4rem;
+}
+
+.kontak .kontak-til {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.kontak .kontak-til h5 span {
+    color: var(--bg);
+}
+
+.kontak .kontak-title {
+    padding: 5px 10px;
+    margin: 0 400px;
+}
+
+.kontak .kontak-title h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.kontak .kontak-title p {
+    text-align: center;
+}
+
+.kontak-isi {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 4rem 10rem 4rem;
+}
+
+
+.kontak-isi a {
+    display: flex;
+    width: 280px;
+    padding: 12px 15px;
+    color: #fff;
+    background-color: var(--thrd);
+    margin: 1rem 1rem 0.5rem 1rem;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+
+.kontak-isi a span {
+    margin-left: 15px;
+    color: var(--bg);
+}
+
+.kontak-isi a:hover {
+    transform: scale(1.2);
+}
+
+/* kebawah */
+.kebawah {
+    display: flex;
+    margin-bottom: 48px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.kebawah a {
+    color: #fff;
+}
+
+.kebawah a i {
+    display: flex;
+    text-align: center;
+}
+
+/* kontak form */
+.kontak .kontak-form {
+    padding: 7rem;
+}
+
+.from-kontak {
+    background-color: var(--thrd);
+    padding: 1rem 2rem;
+    margin: 0 100px 0 100px;
+    border-radius: 20px;
+}
+
+.kontak .kontak-form form .input-group {
+    align-items: center;
+    margin-top: 2rem;
+    color: var(--sec);
+    border: 1px solid #eee;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
+
+.kontak .kontak-form form .input-group p {
+    color: #fff;
+}
+
+.kontak .kontak-form form .input-group input {
+    font-family: var(--poppins);
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: none;
+    color: #fff;
+}
+
+.kontak .kontak-form form .input-group textarea {
+    font-family: var(--poppins);
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    color: #fff;
+}
+
+.kontak .kontak-form form .btn {
+    justify-content: flex-start;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 11px 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: var(--bg);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.kontak .kontak-form form .btn:hover {
+    background-color: #fff;
+    color: var(--bg);
+}
+
+/* footer */
+footer {
+    background-color: var(--primary);
+    text-align: center;
+    padding: 16px 0 32px;
+    margin-top: 64px;
+}
+
+footer .credit {
+    font-size: 12px;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}
