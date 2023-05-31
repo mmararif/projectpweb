@@ -59,7 +59,7 @@ body {
     gap: 100px;
 }
 
-.row {
+.tabel .row {
     padding: 0.3rem;
     background-color: rgba(0, 0, 0, 0);
     position: relative;
@@ -70,7 +70,7 @@ body {
     border: 1px solid #fff;
 }
 
-.row img {
+.tabel .row img {
     object-fit: cover;
     height: 100%;
     width: 100%;
